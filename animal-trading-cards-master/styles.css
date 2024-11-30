@@ -1,0 +1,41 @@
+
+h2{
+    border: 1px;
+}
+
+image{
+    border: 1px;
+}
+
+.describe{
+    font-style: italic   
+}
+
+span{
+    font-weight: bold;
+}
+
+.whole{
+    border: 1px solid; 
+    background-color:  #d4f1f9; 
+    font: size 16px; 
+    width: 300px; 
+    padding: 20px;
+    box-shadow: 10px 10px #d9d9d9;
+    margin: auto;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.little{
+    border: 1px solid ;
+    text-align: left;
+    padding:10px;
+    margin-top: 10px;  
+}
+
+ul{
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
