@@ -1,0 +1,26 @@
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+button{
+    background-color: #922929;
+    color: #a9a9a9;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 425px) {
+    .socials {
+        display: flex;
+        flex-direction: row;
+        align-items: auto;
+        justify-content: auto;
+        flex wrap: wrap;
+    }
+}

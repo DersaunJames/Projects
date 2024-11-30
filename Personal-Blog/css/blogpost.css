@@ -1,0 +1,13 @@
+@import url('footer.css');
+body{
+    background-color: #F2F3F4;
+    width: auto;
+    font-size: 30px;
+    display:grid;
+}
+header{
+    color: #922929;
+}
+#link {
+    color: #922929;
+}

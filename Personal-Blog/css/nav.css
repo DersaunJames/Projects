@@ -1,0 +1,27 @@
+.navbar{
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.navbar li {
+    margin-bottom: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex wrap: wrap;
+    }
+    .navbar li {
+        margin: 0;
+        padding: 10px;
+    }
+}
